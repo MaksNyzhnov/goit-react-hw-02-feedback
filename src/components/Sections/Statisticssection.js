@@ -16,7 +16,6 @@ import Notification from 'components/Notification/Notification';
 //   );
 // };
 const StatisticsSection = ({ title, feedbacks }) => {
-  console.log(feedbacks);
   return (
     <section className={css.section}>
       <h2 className={css.title}>{title}</h2>
