@@ -1,11 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import css from './Statistics.module.css';
 
 class Statistics extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   calcTotalFeedbacks(a, b, c) {
     return Number(a) + Number(b) + Number(c);
   }

@@ -2,8 +2,7 @@
   display: flex;
   gap: 15px;
 }
-.feedback__list__item {
-}
+
 .feedback__button {
   padding: 10px;
   font-size: 18px;

@@ -1,12 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import css from './FeedbackOptions.module.css';
 
 class FeedbackOptions extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   onButtonClick = event => {
     this.props.updateState(`${event.target.textContent.toLowerCase()}`);
   };
